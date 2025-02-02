@@ -7,6 +7,7 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const User = require("./schema/UserSchema");
 
+// main app
 dotenv.config();
 
 const app = express();
