@@ -1,0 +1,63 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+/package-lock.json
+
+# testing
+/coverage
+*.lcov
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+Thumbs.db
+*.pem
+*.swp
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+/logs
+
+# local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# prisma
+/prisma/migrations/
+
+# IDE specific files
+.vscode/
+/.idea/
+
+# husky
+.husky/_/
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# binaries
+*.exe
+*.out
+*.app
